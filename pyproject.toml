@@ -1,0 +1,20 @@
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "sidebar_hider"
+version = "0.0.1"
+description = "Custom App to Hide Sidebar in ERPNext"
+authors = [
+    {name = "Your Company", email = "support@yourcompany.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "frappe"
+]
+
+[tool.flit.module]
+name = "sidebar_hider"
