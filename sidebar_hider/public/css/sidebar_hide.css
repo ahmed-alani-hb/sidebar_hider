@@ -1,4 +1,3 @@
-/* Sidebar hidden by default via body class */
-body:not(.sidebar-visible) .col-lg-2.layout-side-section {
+.col-lg-2.layout-side-section {
     display: none !important;
 }
